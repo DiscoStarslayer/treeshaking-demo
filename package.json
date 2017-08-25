@@ -1,0 +1,16 @@
+{
+  "name": "treeshaking-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Darren Thompson <darren.thompson@thescore.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --optimize-minimize"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.5.5"
+  }
+}
